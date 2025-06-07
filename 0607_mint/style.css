@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #111;
+    color:#fff;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.game-container > input {
+    width: 150px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.game-container > button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.game-container > p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
